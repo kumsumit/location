@@ -3,15 +3,21 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-61.0.0",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-64.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/analyzer-5.13.0",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/analyzer-6.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "analyzer_plugin",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/analyzer_plugin-0.11.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "args",
@@ -92,6 +98,18 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "ci",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/ci-0.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cli_util",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/cli_util-0.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "clock",
       "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
@@ -118,6 +136,24 @@
     {
       "name": "crypto",
       "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/crypto-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "custom_lint",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/custom_lint-0.5.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "custom_lint_builder",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/custom_lint_builder-0.5.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "custom_lint_core",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/custom_lint_core-0.5.6",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -152,12 +188,6 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "flutter_lints",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
       "name": "flutter_test",
       "rootUri": "file:///home/sumit/softwares/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -168,6 +198,12 @@
       "rootUri": "file:///home/sumit/softwares/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "freezed_annotation",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/freezed_annotation-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "frontend_server_client",
@@ -186,6 +222,12 @@
       "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/graphs-2.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "hotreloader",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/hotreloader-4.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "http_multi_server",
@@ -219,27 +261,21 @@
     },
     {
       "name": "leancode_lint",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/leancode_lint-3.0.0",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/leancode_lint-7.0.0+1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "lints",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/lints-2.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     },
     {
       "name": "location_platform_interface",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/location_platform_interface-3.1.2",
+      "rootUri": "file:///home/sumit/.pub-cache/git/location_platform_interface-04439a3fe221b5f71075b2922d1b3519f0b4eed3/",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.1"
     },
     {
       "name": "location_web",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/location_web-4.2.0",
+      "rootUri": "file:///home/sumit/.pub-cache/git/location_web-3fb1e68e2ce7a604fc15d9be7b0364e63a303491/",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.1"
     },
     {
       "name": "logging",
@@ -273,9 +309,9 @@
     },
     {
       "name": "mockito",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/mockito-5.4.2",
+      "rootUri": "file:///home/sumit/.pub-cache/git/mockito-ac81f7ef9b588d600ff7623ff351bd6525cff8c3/",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "package_config",
@@ -291,9 +327,9 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.6",
+      "rootUri": "file:///home/sumit/.pub-cache/git/plugin_platform_interface-3f77202a425698dc76188933bde3738a0df4b21e/",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.1"
     },
     {
       "name": "pool",
@@ -312,6 +348,12 @@
       "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/pubspec_parse-1.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/rxdart-0.27.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "shelf",
@@ -342,6 +384,12 @@
       "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "sprintf",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "stack_trace",
@@ -392,10 +440,22 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/uuid-4.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "vm_service",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/vm_service-13.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "watcher",
@@ -425,10 +485,10 @@
       "name": "location",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-11-15T07:13:40.891745Z",
+  "generated": "2023-11-15T10:17:40.608460Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }

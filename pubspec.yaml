@@ -4,10 +4,11 @@ version: 5.0.3
 homepage: https://docs.page/Lyokone/flutterlocation
 repository: https://github.com/Lyokone/flutterlocation
 issue_tracker: https://github.com/Lyokone/flutterlocation/issues
+publish_to: none
 
 environment:
-  sdk: '>=2.18.0 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: '>=3.13.0'
 
 flutter:
   plugin:
@@ -25,12 +26,15 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  location_platform_interface: ^3.1.1
-  location_web: ^4.1.1
+  location_platform_interface:
+    git: https://github.com/kumsumit/location_platform_interface.git
+  location_web:
+    git: https://github.com/kumsumit/location_web.git
 dev_dependencies:
-  async: ^2.5.0
-  build_runner: ^2.3.3
+  async: ^2.11.0
+  build_runner: ^2.4.6
   flutter_test:
     sdk: flutter
-  leancode_lint: ^3.0.0
-  mockito: ^5.0.0
+  leancode_lint: ^7.0.0+1
+  mockito:
+    git: https://github.com/kumsumit/mockito.git
